@@ -4,7 +4,7 @@ Grade C++ Example unit test project
 C++ project example using [Gradle](http://www.gradle.org) with support for unit testing using [GoogleTest](https://code.google.com/p/googletest/). 
 
 #Setup
-- Install [Gradle](http://www.gradle.org).
+- Install [Gradle](http://www.gradle.org/download) ([Installation notes](http://www.gradle.org/installation)).
 - Install C++ Tool chain supported by [Gradle native builds](http://www.gradle.org/docs/current/userguide/nativeBinaries.html).
 
 #Running
