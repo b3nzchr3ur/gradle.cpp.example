@@ -1,6 +1,3 @@
-Grade C++ Example unit test project
-==================
-
 C++ project example using [Gradle](http://www.gradle.org) with support for unit testing using [GoogleTest](https://code.google.com/p/googletest/). 
 
 #Setup
