@@ -1,0 +1,7 @@
+allprojects {
+	task hello << { task -> println "I'm task $task.project.name" }
+}
+
+subprojects { 
+	hello << { task -> println "  --> I depend on root task" }
+}

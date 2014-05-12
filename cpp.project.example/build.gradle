@@ -1,0 +1,29 @@
+apply plugin : 'cpp'
+
+libraries { 
+	gtest { }
+	mainlib { }
+}
+
+sources {
+	mainlib { }
+
+	test { 
+		cpp {
+			lib libraries.mainlib
+			lib libraries.gtest
+		}
+	} 
+
+	main {
+		cpp {
+			lib libraries.mainlib
+		}
+	}
+
+}
+
+executables {
+	test { }
+	main { }
+}
