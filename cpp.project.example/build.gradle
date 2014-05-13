@@ -1,5 +1,26 @@
 apply plugin : 'cpp'
 
+model {
+  toolChains {
+        /* TODO: Visual Studio does not work. 
+         *mainlib.lib is generated, and mainlib.dll is generated. 
+        visualCpp(VisualCpp) {
+	}
+        */
+	
+	gcc(Gcc) {
+	}
+  }
+}
+
+binaries.all {
+	/*
+	if(toolChain in VisualCpp) {
+		cppCompiler.args "/EHsc"
+	}
+	*/
+}
+
 libraries { 
 	gtest { }
 	mainlib { }
