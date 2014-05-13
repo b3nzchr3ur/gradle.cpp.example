@@ -17,6 +17,7 @@ model {
 binaries.all {
 	if(toolChain in VisualCpp) {
 		cppCompiler.args "/EHsc"
+		cppCompiler.define "DLL_EXPORT"
 	}
 }
 */
