@@ -5,6 +5,6 @@
 #Running
 Script| Comment
 --- | ---
-[cpp.project.example/run.sh](cpp.project.example/run.sh) | Runs the production code
-[cpp.project.example/test.sh](cpp.project.example/run.sh) | Runs the unit tests
+[cpp.project.example/run.*](cpp.project.example/run.sh) | Runs the production code
+[cpp.project.example/test.*](cpp.project.example/run.sh) | Runs the unit tests
 
