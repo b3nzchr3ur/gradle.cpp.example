@@ -3,7 +3,7 @@ apply plugin : 'cpp'
 model {
   toolChains {
         /* TODO: Visual Studio does not work. 
-         *mainlib.lib is generated, and mainlib.dll is wanted.. 
+         *mainlib.lib is generated, and mainlib.dll is wanted. 
         visualCpp(VisualCpp) {
 	}
         */
@@ -13,13 +13,13 @@ model {
   }
 }
 
+/*
 binaries.all {
-	/*
 	if(toolChain in VisualCpp) {
 		cppCompiler.args "/EHsc"
 	}
-	*/
 }
+*/
 
 libraries { 
 	gtest { }
